@@ -1,5 +1,5 @@
 # CSS_Repo
 
-This Repo is created for CSS Practicing.
-Making 1st commit to my id and letting it update.
-Let's add another commit to the git version control system.
+Hi there,
+This Repo is created for my Coding practice. I am Zarriy. You can reach me at https://zarriy.com/.
+Bye Bye for Now.
