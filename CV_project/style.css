@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  margin: 0 200px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.name {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 4px solid #000;
+  flex: 1;
+  border-bottom: 4px solid #000;
+}
+.name h1 {
+  padding: 10px 0;
+  font-size: 48px;
+}
+.name a {
+  text-decoration: none;
+  color: #0309;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+  filter: grayscale(1);
+}
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.address address {
+  font-size: 16px;
+  color: #707070;
+  margin-left: 20px;
+}
+.connect {
+  margin-right: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.connect a {
+  color: rgb(94, 94, 94);
+  text-decoration: none;
+}
+.value {
+  color: #000;
+  font-weight: 600;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.computer-skills,
+.Objective {
+  display: flex;
+  gap: 50px;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(156, 156, 156);
+}
+.skills {
+  flex: 2;
+  max-width: 600px;
+  color: rgb(94, 94, 94);
+}
+.Objective {
+  margin-top: 30px;
+}
+.education {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.Degrees {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.Degree {
+  display: flex;
+}
+.Deg-about h3 {
+  color: #424242;
+  margin-bottom: 4px;
+}
+.Deg-about p {
+  margin-bottom: 4px;
+}
+.era {
+  font-weight: 600;
+  font-size: 16px;
+  color: #424242;
+}
