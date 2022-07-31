@@ -69,7 +69,7 @@ nav ul li a {
   right: -200px;
 }
 .content {
-  margin: 80px 40px;
+  margin: 80px 80px;
   position: relative;
   z-index: 2;
 }
@@ -100,7 +100,7 @@ nav ul li a {
   color: var(--para-text);
   font-size: 18px;
   margin-bottom: 50px;
-  line-height: 1.4;
+  line-height: 30px;
 }
 .learn-btn {
   background-color: var(--light-blue);
@@ -128,6 +128,8 @@ button:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+  top: -4px;
 }
 .container-2 h2 {
   font-family: "Nunito", sans-serif;
@@ -142,4 +144,73 @@ button:hover {
   width: 90px;
 
   margin-right: 40px;
+}
+
+/**** Work Section ****/
+.container-work {
+  background-color: var(--dark-blue);
+  text-align: center;
+  padding-bottom: 40px;
+}
+.container-work .heading-work {
+  color: var(--secondary-heading);
+  font-size: 42px;
+  font-family: "Nunito", sans-serif;
+  margin: 80px 0;
+}
+.box-work {
+  text-align: left;
+  margin: 80px 0;
+}
+.box-work h1 {
+  color: rgb(229, 229, 229, 0.5);
+  font-family: "Nunito", sans-serif;
+  font-size: 84px;
+}
+.box-work h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 42px;
+  margin-top: -20px;
+}
+.box-work p {
+  font-size: 18px;
+  color: var(--para-text);
+  margin-top: 10px;
+  line-height: 30px;
+}
+.research h2 {
+  color: var(--light-blue);
+}
+.research {
+  position: relative;
+  left: 10%;
+}
+.research:after {
+  content: url(images/Vector\ 1.png);
+  position: absolute;
+
+  top: 40%;
+  left: 36%;
+}
+.design h2 {
+  color: var(--light-dark-blue);
+}
+.design {
+  position: relative;
+  left: 38%;
+  padding-top: 40px;
+}
+.develop h2 {
+  color: var(--yellow-light);
+}
+.develop {
+  position: relative;
+  left: 56%;
+  padding-top: 40px;
+}
+.design:before {
+  content: url(images/Vector\ 2.png);
+  position: absolute;
+  left: -16%;
+  top: 64%;
 }
