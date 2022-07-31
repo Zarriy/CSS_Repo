@@ -113,11 +113,13 @@ nav ul li a {
   margin-right: 20px;
   margin-bottom: 4px;
 }
-button {
+button,
+#submit-btn-in {
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
-button:hover {
+button:hover,
+#submit-btn-in:hover {
   transform: translateY(-4px);
 }
 
@@ -372,6 +374,10 @@ button:hover {
   box-shadow: 2px 5px 4px rgba(0, 0%, 0%, 0.25);
   box-sizing: border-box;
   padding: 20px;
+  transition: transform 400ms linear;
+}
+.feature-box:hover {
+  transform: scale(1.1);
 }
 .feature-box ion-icon {
   font-size: 68px;
@@ -489,4 +495,67 @@ textarea:focus {
   border: none;
   color: var(--dark-blue);
   border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0%, 0%, 0.25);
+}
+/*****Footer****/
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 60px;
+  align-items: center;
+  border-top: 1px solid var(--light-blue);
+}
+
+footer .about-us {
+  width: 350px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+footer h2 {
+  color: var(--secondary-heading);
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+}
+footer p {
+  color: var(--para-text);
+  line-height: 30px;
+}
+.link ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: var(--light-blue);
+  cursor: pointer;
+}
+.link ul li:hover {
+  color: var(--light-dark-blue);
+}
+.social-links {
+  display: flex;
+  list-style: none;
+  font-size: 34px;
+  gap: 16px;
+  color: var(--light-blue);
+  margin-top: 20px;
+}
+.logo img {
+  margin-top: -70px;
+}
+.para-em {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+.para-em a {
+  color: var(--light-blue);
+}
+/**** Footprint ****/
+.footprint {
+  padding: 10px 0;
+  text-align: center;
+  background-color: var(--yellow-dark);
+  color: var(--para-text);
+}
+.footprint a {
+  color: var(--dark-blue);
 }
