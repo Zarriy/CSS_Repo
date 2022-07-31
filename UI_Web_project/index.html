@@ -26,7 +26,7 @@
   </head>
   <body>
     <!---Header Section-->
-    <div class="container-1">
+    <div class="container-1" id="header">
     <header class="navBar">
       <div calss="logo">
         <img
@@ -38,11 +38,11 @@
       </div>
       <nav class="nav">
         <ul>
-          <li><a href="">Our Process</a></li>
-          <li><a href="">Features</a></li>
+          <li><a href="#Process">Our Process</a></li>
+          <li><a href="#features">Features</a></li>
           <li></li>
         </ul>
-        <button class="btn-h">Contact Us</button>
+        <button class="btn-h" onclick="location.href='#contact'">Contact Us</button>
       </nav>
     </header>
     <div class="header-content">
@@ -72,7 +72,7 @@
         </div>
 
         <!--- Work Section  -->
-        <div class="container-work">
+        <div class="container-work" id="Process">
             <h2 class="heading-work">Work Process...</h2>
             <div class="research box-work">
                     <h1>01<h1>
@@ -103,7 +103,7 @@
         </div>
 
         <!--- Service & Features -->
-        <div class="container-4">
+        <div class="container-4" id="features">
             <h2 class="heading-work">Services & Features</h2>
             <div class="container-flex">
             <div class="services">
@@ -149,7 +149,7 @@
         </div>
 
         <!----  Contact Us Portion.  --->
-        <div class="container-5">
+        <div class="container-5" id="contact">
             <h2 class="heading-work">Contact Us</h2>
             <div class="contact-form">
                 <form class="contact-Us">
@@ -191,10 +191,10 @@
             <div class="link">
                 <h2>Links</h2>
                 <ul class="website-links">
-                    <li>Portfolio</li>
-                    <li>Case Studies</li>
-                    <li>Downloads</li>
-                    <li>Contact Us</li>
+                    <li><a href="#header">Header</a></li>
+                    <li><a href="#Process">Work</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </footer>

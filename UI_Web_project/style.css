@@ -13,6 +13,9 @@
   --para-text: #e8e8e8;
   --secondary-heading: #e5e5e5;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
@@ -20,6 +23,7 @@ body {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 .container-1 {
   background-color: var(--dark-blue);
@@ -521,13 +525,20 @@ footer p {
   color: var(--para-text);
   line-height: 30px;
 }
-.link ul li {
+.link ul {
   list-style: none;
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.link ul li a {
+  list-style: none;
+
+  gap: 10px;
   color: var(--light-blue);
   cursor: pointer;
 }
-.link ul li:hover {
+.link ul li a:hover {
   color: var(--light-dark-blue);
 }
 .social-links {
