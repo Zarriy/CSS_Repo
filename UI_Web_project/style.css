@@ -152,11 +152,14 @@ button:hover {
   text-align: center;
   padding-bottom: 40px;
 }
-.container-work .heading-work {
+.heading-work {
   color: var(--secondary-heading);
   font-size: 42px;
   font-family: "Nunito", sans-serif;
   margin: 80px 0;
+}
+.container-work p {
+  color: var(--para-text);
 }
 .box-work {
   text-align: left;
@@ -213,4 +216,208 @@ button:hover {
   position: absolute;
   left: -16%;
   top: 64%;
+}
+.container-work button {
+  margin-top: 20px;
+}
+
+/**** Services & Features *****/
+.container-4 {
+  text-align: center;
+  background-color: var(--dark-blue);
+  padding-bottom: 80px;
+}
+.services {
+  width: 480px;
+  height: 580px;
+  background-color: rgba(24, 149, 126, 1);
+  border-radius: 11px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 40px;
+}
+.services h3 {
+  color: #8cffea;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.services p {
+  color: var(--para-text);
+  font-size: 18px;
+  letter-spacing: 1.1px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.features {
+  width: 560px;
+  height: 560px;
+}
+.container-flex {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.services-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.services-box {
+  width: 90px;
+  height: 90px;
+  background-color: var(--yellow-dark);
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-box h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(53, 160, 140);
+}
+.box-b {
+  background-color: #023047;
+  position: relative;
+}
+.box-b:after {
+  content: "randing";
+  position: absolute;
+  top: 66px;
+  color: rgb(53, 160, 140);
+  font-size: 14px;
+}
+.box-b:before {
+  content: "Kit Design";
+  position: absolute;
+  transform: rotate(270deg);
+  right: -16px;
+  color: rgb(53, 160, 140);
+  font-size: 12px;
+}
+.box-l {
+  background-color: var(--yellow-light);
+  position: relative;
+}
+.box-l:after {
+  content: "Logo";
+  position: absolute;
+  top: 66px;
+  color: rgb(53, 160, 140);
+  font-size: 14px;
+}
+.box-l:before {
+  content: "Design";
+  position: absolute;
+  transform: rotate(270deg);
+  right: -6px;
+  color: rgb(53, 160, 140);
+  font-size: 12px;
+}
+.box-a {
+  background-color: #353a3c;
+  position: relative;
+}
+.box-a:after {
+  content: "Apps";
+  position: absolute;
+  top: 66px;
+  color: rgb(53, 160, 140);
+  font-size: 14px;
+}
+.box-a:before {
+  content: "Design";
+  position: absolute;
+  transform: rotate(270deg);
+  right: -6px;
+  color: rgb(53, 160, 140);
+  font-size: 12px;
+}
+.box-w {
+  background-color: var(--yellow-dark);
+  position: relative;
+}
+.box-w:after {
+  content: "Website";
+  position: absolute;
+  top: 66px;
+  color: #20695c;
+  font-size: 14px;
+}
+.box-w:before {
+  content: "Design";
+  position: absolute;
+  transform: rotate(270deg);
+  right: -6px;
+  color: #0d5749;
+  font-size: 12px;
+}
+.services-name {
+  display: flex;
+  gap: 10px;
+  margin-left: -16px;
+}
+/*** Feature Boxes***/
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.feature-box {
+  width: 200px;
+  height: 260px;
+  border-radius: 11px;
+  box-shadow: 2px 5px 4px rgba(0, 0%, 0%, 0.25);
+  box-sizing: border-box;
+  padding: 20px;
+}
+.feature-box ion-icon {
+  font-size: 68px;
+  padding: 20px 0;
+}
+.feature-box h4 {
+  font-size: 24px;
+  padding-bottom: 10px;
+  font-family: "Nunito", sans-serif;
+}
+.feature-box p {
+  color: var(--para-text);
+}
+.quality {
+  background-color: rgba(1, 68, 102, 0.8);
+  flex: 1 0 auto;
+  margin-top: -20px;
+}
+.quality ion-icon,
+.quality h4 {
+  color: rgba(142, 202, 230, 1);
+}
+.support {
+  background-color: rgba(79, 2, 124, 0.6);
+  flex: 1 0 auto;
+  margin-top: 20px;
+}
+.support ion-icon,
+.support h4 {
+  color: rgba(131, 56, 236, 1);
+}
+.update {
+  background-color: rgba(255, 89, 94, 0.8);
+  flex: 1 0 auto;
+  margin-top: -20px;
+}
+.update ion-icon,
+.update h4 {
+  color: rgba(255, 197, 198, 1);
+}
+.futuristic {
+  background-color: rgba(255, 121, 0, 0.8);
+  flex: 1 0 auto;
+  margin-top: 20px;
+}
+.futuristic ion-icon,
+.futuristic h4 {
+  color: rgba(255, 181, 114, 1);
 }
