@@ -421,3 +421,72 @@ button:hover {
 .futuristic h4 {
   color: rgba(255, 181, 114, 1);
 }
+
+/*** Contact us Portion ***/
+.container-5 {
+  background-color: var(--light-dark-blue);
+  text-align: center;
+  padding: 40px 0;
+}
+.container-5 h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.contact-form {
+  width: 700px;
+  height: 320px;
+  background-color: rgba(2, 48, 71, 1);
+  margin: 0 auto;
+  border-radius: 11px;
+  box-sizing: border-box;
+  padding: 60px;
+}
+form {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.userName input,
+.email-box input {
+  width: 240px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(142, 202, 230, 1);
+  flex: 1 0 auto;
+  padding: 10px 0;
+  font-size: 18px;
+  color: rgba(142, 202, 230, 1);
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(142, 202, 230, 1);
+  font-size: 18px;
+}
+textarea::placeholder {
+  font-size: 14px;
+  /* font-family: "Inter", sans-serif; */
+}
+.message-box textarea {
+  border: none;
+  border-bottom: 1px solid rgba(142, 202, 230, 1);
+  background-color: transparent;
+  color: rgba(142, 202, 230, 1);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--light-dark-blue);
+}
+#submit-btn-in {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: var(--yellow-light);
+  border: none;
+  color: var(--dark-blue);
+  border-radius: 4px;
+}
